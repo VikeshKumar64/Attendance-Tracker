@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Attendance-logos.jpeg" type="image/x-icon"/>
+    <title>Attendance Using Link</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Attendance Using Link</h1>
+        <div class="attendance-box">
+            <h2>Enter Your Details</h2>
+            <input type="text" id="name" placeholder="Enter your Full name" required>
+            <input type="number" id="class" placeholder="Enter your Roll Number" required>
+            
+            <button id="generateLinkButton">Generate Unique Link</button>
+            <p id="uniqueLink"></p>
+            
+            <!-- Link to attendance.html page -->
+            <a href="attendance.html" target="_blank" class="redirect-button">Mark Your Attendance</a>
+        </div>
+    </div>
+    <footer> Developed By - &nbsp; Vikesh Kumar </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
